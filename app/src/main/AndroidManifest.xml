@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="kr.co.hajun.androidpractice">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +12,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidPractice">
+        <activity
+            android:name=".Lab9_2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Lab9_1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".ReadDBActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Lab8_1Activity"
+            android:exported="true" />
         <activity
             android:name=".Part2_Mission2"
             android:exported="true" />
@@ -30,7 +45,7 @@
             android:exported="true" />
         <activity
             android:name=".Lab3_4Activity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />
