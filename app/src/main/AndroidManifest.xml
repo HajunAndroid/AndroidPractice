@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidPractice">
         <activity
+            android:name=".Lab6_1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Lab_4_1Activity"
+            android:exported="true" />
+        <activity
             android:name=".Lab3_4Activity"
             android:exported="true">
             <intent-filter>
@@ -20,8 +26,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
