@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidPractice">
         <activity
+            android:name=".Lab10_2Activity"
+            android:exported="true" />
+        <activity
             android:name=".Lab9_2Activity"
             android:exported="true" />
         <activity
