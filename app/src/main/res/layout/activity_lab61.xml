@@ -56,7 +56,7 @@
             android:id="@+id/bell"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/bell"
+            android:src="@drawable/example"
             android:layout_below="@id/repeatCheck"
             android:layout_alignLeft="@id/ampm"
             android:layout_marginTop="16dp"/>

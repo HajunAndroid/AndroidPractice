@@ -3,4 +3,12 @@
     <string name="long_text">
         이제 정말 돌이킬 수 없어. 그냥 할 수 밖에.
     </string>
+    <string name="title">
+        Send and receive SMS from Messenger
+    </string>
+    <string name="content">
+        Manage all of your conversations in one place and use stickers and chat heads. SMS conversations are displayed separately in Messenger and are only available via a mobile phone. Standard text message charges will be charged.
+    </string>
+    <string name="button">OK</string>
+    <string name="setting">Setting</string>
 </resources>
