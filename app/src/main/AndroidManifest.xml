@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,7 +12,34 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AndroidPractice">
+        android:theme="@style/Theme.AndroidPractice"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".HTTP.HttpMainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Lab17_4Activity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".Lab17_3Activity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".Lab17_1"
+            android:exported="true" />
+        <activity
+            android:name=".Lab14_1DetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Lab14_1Activity"
+            android:exported="true" />
         <activity
             android:name=".Lab10_2Activity"
             android:exported="true" />
@@ -33,13 +61,7 @@
         <activity
             android:name=".Part2_Mission1"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".Lab6_1Activity"
             android:exported="true" />
